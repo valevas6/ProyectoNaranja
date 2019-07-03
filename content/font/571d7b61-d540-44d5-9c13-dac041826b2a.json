@@ -1,0 +1,119 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/admin\/appearance\/font\/4337?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/font\/font"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_classification": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/15?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_supported_languages": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/10?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 4337
+        }
+    ],
+    "uuid": [
+        {
+            "value": "571d7b61-d540-44d5-9c13-dac041826b2a"
+        }
+    ],
+    "pid": [
+        {
+            "value": "google_fonts_api"
+        }
+    ],
+    "url": [
+        {
+            "value": "https:\/\/www.google.com\/webfonts\/family?family=K2D&subset=vietnamese#100italic"
+        }
+    ],
+    "name": [
+        {
+            "value": "K2D 100italic (vietnamese)"
+        }
+    ],
+    "css_family": [
+        {
+            "value": "K2D"
+        }
+    ],
+    "css_style": [
+        {
+            "value": "italic"
+        }
+    ],
+    "css_weight": [
+        {
+            "value": "100"
+        }
+    ],
+    "metadata": [
+        {
+            "value": "a:2:{s:4:\"path\";s:13:\"K2D:100italic\";s:6:\"subset\";s:10:\"vietnamese\";}"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-07-01T22:35:11+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-01T22:35:11+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": false,
+            "lang": "und"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_classification": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/15?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/font_classification"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0088518e-5e3f-45ea-ab71-5628d46a8aa7"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_supported_languages": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/10?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/languages_supported"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2dc38b1a-d846-4e29-9f5c-334c4fc7779e"
+                    }
+                ]
+            }
+        ]
+    }
+}

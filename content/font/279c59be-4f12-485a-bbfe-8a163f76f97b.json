@@ -1,0 +1,119 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/admin\/appearance\/font\/4117?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/font\/font"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_classification": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_supported_languages": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/13?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 4117
+        }
+    ],
+    "uuid": [
+        {
+            "value": "279c59be-4f12-485a-bbfe-8a163f76f97b"
+        }
+    ],
+    "pid": [
+        {
+            "value": "google_fonts_api"
+        }
+    ],
+    "url": [
+        {
+            "value": "https:\/\/www.google.com\/webfonts\/family?family=Kirang Haerang&subset=korean#regular"
+        }
+    ],
+    "name": [
+        {
+            "value": "Kirang Haerang regular (korean)"
+        }
+    ],
+    "css_family": [
+        {
+            "value": "Kirang Haerang"
+        }
+    ],
+    "css_style": [
+        {
+            "value": "normal"
+        }
+    ],
+    "css_weight": [
+        {
+            "value": "normal"
+        }
+    ],
+    "metadata": [
+        {
+            "value": "a:2:{s:4:\"path\";s:22:\"Kirang Haerang:regular\";s:6:\"subset\";s:6:\"korean\";}"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-07-01T22:35:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-01T22:35:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": false,
+            "lang": "und"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_classification": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/font_classification"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e1d25a54-1e14-4aa4-bfbf-d5bc9573bf7b"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_supported_languages": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/13?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/languages_supported"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e7f3bce8-0740-4a22-8abb-40bc38c875ca"
+                    }
+                ]
+            }
+        ]
+    }
+}

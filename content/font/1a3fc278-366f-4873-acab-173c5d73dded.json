@@ -1,0 +1,119 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/admin\/appearance\/font\/7011?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/font\/font"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_classification": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_supported_languages": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/33?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 7011
+        }
+    ],
+    "uuid": [
+        {
+            "value": "1a3fc278-366f-4873-acab-173c5d73dded"
+        }
+    ],
+    "pid": [
+        {
+            "value": "google_fonts_api"
+        }
+    ],
+    "url": [
+        {
+            "value": "https:\/\/www.google.com\/webfonts\/family?family=Baloo Chettan&subset=malayalam#regular"
+        }
+    ],
+    "name": [
+        {
+            "value": "Baloo Chettan regular (malayalam)"
+        }
+    ],
+    "css_family": [
+        {
+            "value": "Baloo Chettan"
+        }
+    ],
+    "css_style": [
+        {
+            "value": "normal"
+        }
+    ],
+    "css_weight": [
+        {
+            "value": "normal"
+        }
+    ],
+    "metadata": [
+        {
+            "value": "a:2:{s:4:\"path\";s:21:\"Baloo Chettan:regular\";s:6:\"subset\";s:9:\"malayalam\";}"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-07-01T22:36:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-01T22:36:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": false,
+            "lang": "und"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_classification": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/font_classification"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e1d25a54-1e14-4aa4-bfbf-d5bc9573bf7b"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_supported_languages": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/33?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/languages_supported"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "543e6065-4a1c-418e-b289-a529714a1649"
+                    }
+                ]
+            }
+        ]
+    }
+}

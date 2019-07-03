@@ -1,0 +1,119 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/admin\/appearance\/font\/7424?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/font\/font"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_classification": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_supported_languages": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/23?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 7424
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c4fdf280-2511-4cfe-b812-b12342b8213d"
+        }
+    ],
+    "pid": [
+        {
+            "value": "google_fonts_api"
+        }
+    ],
+    "url": [
+        {
+            "value": "https:\/\/www.google.com\/webfonts\/family?family=Amiri&subset=arabic#700"
+        }
+    ],
+    "name": [
+        {
+            "value": "Amiri 700 (arabic)"
+        }
+    ],
+    "css_family": [
+        {
+            "value": "Amiri"
+        }
+    ],
+    "css_style": [
+        {
+            "value": "normal"
+        }
+    ],
+    "css_weight": [
+        {
+            "value": "700"
+        }
+    ],
+    "metadata": [
+        {
+            "value": "a:2:{s:4:\"path\";s:9:\"Amiri:700\";s:6:\"subset\";s:6:\"arabic\";}"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-07-01T22:36:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-01T22:36:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": false,
+            "lang": "und"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_classification": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/font_classification"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "95fd9bc0-aaf0-4ab7-9fde-1d696edc9579"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_supported_languages": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/23?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/languages_supported"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dd77378c-56fc-457b-ba18-1323d9a142d7"
+                    }
+                ]
+            }
+        ]
+    }
+}

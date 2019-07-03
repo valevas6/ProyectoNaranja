@@ -1,0 +1,119 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/admin\/appearance\/font\/2621?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/font\/font"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_classification": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_supported_languages": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/25?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 2621
+        }
+    ],
+    "uuid": [
+        {
+            "value": "490274cd-8cbe-4d80-9bdd-80981091e900"
+        }
+    ],
+    "pid": [
+        {
+            "value": "google_fonts_api"
+        }
+    ],
+    "url": [
+        {
+            "value": "https:\/\/www.google.com\/webfonts\/family?family=Noto Serif JP&subset=japanese#700"
+        }
+    ],
+    "name": [
+        {
+            "value": "Noto Serif JP 700 (japanese)"
+        }
+    ],
+    "css_family": [
+        {
+            "value": "Noto Serif JP"
+        }
+    ],
+    "css_style": [
+        {
+            "value": "normal"
+        }
+    ],
+    "css_weight": [
+        {
+            "value": "700"
+        }
+    ],
+    "metadata": [
+        {
+            "value": "a:2:{s:4:\"path\";s:17:\"Noto Serif JP:700\";s:6:\"subset\";s:8:\"japanese\";}"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-07-01T22:34:18+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-01T22:34:18+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": false,
+            "lang": "und"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_classification": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/font_classification"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "95fd9bc0-aaf0-4ab7-9fde-1d696edc9579"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_supported_languages": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/25?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/languages_supported"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "af99e3c3-2a1f-4e20-a642-ffe7ff7910b6"
+                    }
+                ]
+            }
+        ]
+    }
+}

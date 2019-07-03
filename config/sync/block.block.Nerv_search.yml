@@ -1,0 +1,22 @@
+uuid: b068e4fc-c705-4f78-b6b8-d1d38b5fd480
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - Nerv
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: Nerv_search
+theme: Nerv
+region: sidebar_second
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

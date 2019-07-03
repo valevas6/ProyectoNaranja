@@ -1,0 +1,119 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/admin\/appearance\/font\/5315?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/font\/font"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_classification": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/15?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_supported_languages": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/16?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 5315
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5caf62c6-0fbb-4616-a4a8-2c9dbbaf6a0c"
+        }
+    ],
+    "pid": [
+        {
+            "value": "google_fonts_api"
+        }
+    ],
+    "url": [
+        {
+            "value": "https:\/\/www.google.com\/webfonts\/family?family=Fira Sans Condensed&subset=greek#100italic"
+        }
+    ],
+    "name": [
+        {
+            "value": "Fira Sans Condensed 100italic (greek)"
+        }
+    ],
+    "css_family": [
+        {
+            "value": "Fira Sans Condensed"
+        }
+    ],
+    "css_style": [
+        {
+            "value": "italic"
+        }
+    ],
+    "css_weight": [
+        {
+            "value": "100"
+        }
+    ],
+    "metadata": [
+        {
+            "value": "a:2:{s:4:\"path\";s:29:\"Fira Sans Condensed:100italic\";s:6:\"subset\";s:5:\"greek\";}"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-07-01T22:35:40+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-01T22:35:40+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": false,
+            "lang": "und"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_classification": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/15?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/font_classification"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0088518e-5e3f-45ea-ab71-5628d46a8aa7"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/font\/font\/field_supported_languages": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/16?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/languages_supported"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bfa0c39b-316e-42d1-a0b1-02496f542f62"
+                    }
+                ]
+            }
+        ]
+    }
+}

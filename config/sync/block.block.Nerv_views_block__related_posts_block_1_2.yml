@@ -1,0 +1,32 @@
+uuid: 03c61c48-67ad-410c-8a89-7b62e8dc9318
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.related_posts
+  module:
+    - node
+    - views
+  theme:
+    - Nerv
+id: Nerv_views_block__related_posts_block_1_2
+theme: Nerv
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'views_block:related_posts-block_1'
+settings:
+  id: 'views_block:related_posts-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      post: post
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

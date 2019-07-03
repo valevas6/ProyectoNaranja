@@ -1,0 +1,30 @@
+uuid: cd7c2275-463d-448a-b7b0-2773e7d622bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.posts
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__posts_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:posts-block_1'
+settings:
+  id: 'views_block:posts-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/posts"
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,8 @@
+uuid: ebbbced9-9a2d-40cf-b49d-c59c0423aaf2
+langcode: en
+status: true
+dependencies: {  }
+name: Categories
+vid: categories
+description: 'List of categorios for post'
+weight: 0

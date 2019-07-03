@@ -1,0 +1,22 @@
+uuid: 37cde4a8-9c2e-4efa-908b-f1a6f0a16509
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - Nerv
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: Nerv_help
+theme: Nerv
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

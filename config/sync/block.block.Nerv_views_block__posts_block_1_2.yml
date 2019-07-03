@@ -1,0 +1,30 @@
+uuid: f9b92c4e-c5f9-4701-ab09-76e135be0836
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.posts
+  module:
+    - system
+    - views
+  theme:
+    - Nerv
+id: Nerv_views_block__posts_block_1_2
+theme: Nerv
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'views_block:posts-block_1'
+settings:
+  id: 'views_block:posts-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/posts"
+    negate: false
+    context_mapping: {  }

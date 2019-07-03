@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url("Roboto-Light.ttf");
+}
+
+p {
+  font-family: 'Roboto';
+  font-size: 150%;
+}
+
+h2{
+  font-size: 25px;
+}
+
+body{
+  font-family: 'Roboto';
+  background-image: url("background.jpeg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+h1, h2, h3, p{
+font-family: 'Roboto';
+}
+
+p{
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+

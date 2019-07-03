@@ -1,0 +1,33 @@
+uuid: 7474a3fd-0fbb-4460-b134-0ff04b40da90
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.related_links
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__related_links_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:related_links-block_1'
+settings:
+  id: 'views_block:related_links-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      post: post
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

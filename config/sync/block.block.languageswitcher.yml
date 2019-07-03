@@ -1,0 +1,20 @@
+uuid: 5f5c1e58-d09f-4da2-afc7-317b1c0682d7
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - bartik
+id: languageswitcher
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language '
+  provider: language
+  label_display: visible
+visibility: {  }

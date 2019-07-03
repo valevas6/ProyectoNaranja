@@ -1,0 +1,22 @@
+uuid: 214061ed-0df6-48e0-ad9b-ce726a0a1f11
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - Nerv
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: Nerv_powered
+theme: Nerv
+region: footer
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
