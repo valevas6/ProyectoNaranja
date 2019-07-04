@@ -1,0 +1,18 @@
+uuid: 5016dcbe-99bd-4e1a-b8ab-4f830e7d55da
+langcode: es
+status: true
+dependencies:
+  config:
+    - media.type.file
+id: media.file.changed
+field_name: changed
+entity_type: media
+bundle: file
+label: Modificado
+description: 'The time the media item was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

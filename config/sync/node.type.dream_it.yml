@@ -1,0 +1,18 @@
+uuid: 0f7b423b-663e-47ef-a736-df989d4f73c0
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Dream it'
+type: dream_it
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

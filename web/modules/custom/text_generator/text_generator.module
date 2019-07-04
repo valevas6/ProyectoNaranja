@@ -1,0 +1,13 @@
+<?php
+
+use \Drupal\Core\Routing\RouteMatchInterface;
+
+function text_generator_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.text_generator';
+    return t('<h1>Help</h1>
+             <h2>Instructions for The module</h2>
+             <p>The module shows information about the REST API usage and functionality, for further information about this subject check the module function.</p>');
+  }
+}
+

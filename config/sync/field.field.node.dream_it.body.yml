@@ -1,0 +1,22 @@
+uuid: e7d480bf-1bed-41dc-8848-1c1459366a13
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.dream_it
+  module:
+    - text
+id: node.dream_it.body
+field_name: body
+entity_type: node
+bundle: dream_it
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

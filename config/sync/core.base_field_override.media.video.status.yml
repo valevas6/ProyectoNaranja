@@ -1,0 +1,22 @@
+uuid: ea97c5d9-327e-4c26-9a2a-818aa509a82d
+langcode: es
+status: true
+dependencies:
+  config:
+    - media.type.video
+id: media.video.status
+field_name: status
+entity_type: media
+bundle: video
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

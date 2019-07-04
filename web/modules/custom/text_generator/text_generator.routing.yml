@@ -1,0 +1,16 @@
+text_generator.generate:
+  path: 'ApiInfo'
+  defaults:
+    _controller: '\Drupal\text_generator\Controller\TextGeneratorController::content'
+    _title: 'API info'
+  requirements:
+    _permission: 'access content'
+
+
+text_generator.form:
+  path: 'admin/config/development/text_generator'
+  defaults:
+    _form: '\Drupal\text_generator\Form\TextGeneratorForm'
+    _title: 'Text Generator Config'
+  requirements:
+    _permission: 'administer site configuration'

@@ -1,0 +1,20 @@
+uuid: acb11c08-233b-4a65-9c4f-2ffda4284f63
+langcode: es
+status: true
+dependencies:
+  config:
+    - media.type.video
+id: media.video.name
+field_name: name
+entity_type: media
+bundle: video
+label: Nombre
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

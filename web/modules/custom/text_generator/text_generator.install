@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Installation functions for Text Generator module
+ */
+
+use Drupal\user\RoleInterface;
+
+
+ /**
+  * Implements hook_istall()
+  */
+function text_generator_install() {
+
+  user_role_change_permissions(RoleInterface::ANONYMOUS_ID, [
+    'generate text' => TRUE,
+  ]);
+}

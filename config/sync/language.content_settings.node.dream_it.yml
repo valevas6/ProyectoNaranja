@@ -1,0 +1,11 @@
+uuid: b40ecd61-509b-4dca-971a-d5054a38e98c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.dream_it
+id: node.dream_it
+target_entity_type_id: node
+target_bundle: dream_it
+default_langcode: site_default
+language_alterable: false
